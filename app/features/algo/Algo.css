@@ -1,0 +1,61 @@
+
+.container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.topToolbar {
+  display: flex;
+}
+
+.topToolbar > * + * {
+  margin-left: 10px;
+}
+
+.stepTitle {
+  color: #fff;
+}
+
+.formula {
+  color: #31ec34;
+}
+
+.f {
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonGroup {
+  margin-top: 10px;
+}
+
+.buttonGroup button {
+  min-height: 120px;
+  min-width: 200px;
+  font-size: 30px;
+}
+
+.buttonGroup button .bp3-icon {
+  font-size: 30px;
+}
+
+.inputsCard {
+  display: flex;
+}
+
+.inputsCard > div:first-child {
+  margin-right: 5px;
+}
+
+.inputsCard > div:last-child {
+  margin-left: 5px;
+}

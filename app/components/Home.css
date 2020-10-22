@@ -1,0 +1,21 @@
+.container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container .content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  color: #fff;
+}

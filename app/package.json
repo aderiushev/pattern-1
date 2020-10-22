@@ -1,0 +1,13 @@
+{
+  "name": "pattern1",
+  "productName": "pattern1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./main.prod.js",
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
